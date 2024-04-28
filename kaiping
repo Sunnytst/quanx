@@ -1,0 +1,17 @@
+#!name=去开屏ultra+
+#!desc=去开屏
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/startingad.png
+#!author=Mixed
+# 202404291446
+
+^https?:\/\/[\d\.]+\/3f1\/cards\.iqiyi\.com\/(views_home\/3\.0\/qy_home|waterfall\/3\.0\/feed)\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
+^https?:\/\/.*cupid\.iqiyi\.com\/mixer\? url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/iqiyi_open_ads.js
+^https?:\/\/(kjp|t7z)\.cupid\.iqiyi\.com\/mixer\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
+^https?://u\d\.iqiyipic\.com/image/[\w/]+/oad_ url reject
+^https?://intl\.iqiyi\.com/video/advertise url reject
+^https?://intl\.iqiyi\.com/ad_external/ url reject
+^https?://iface\.iqiyi\.com/api/getNewAdInfo url reject
+^https?://act\.vip\.iqiyi\.com/interact/api/v\d/show url reject
+^https?://act\.vip\.iqiyi\.com/interact/api/show\.do url reject
+
+hostname =*cupid.iqiyi.com,act.vip.iqiyi.com,iface.iqiyi.com,intl.iqiyi.com,*.cards.iqiyi.com,*.iqiyipic.com
