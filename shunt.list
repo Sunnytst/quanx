@@ -8,3 +8,5 @@
 # USER-AGENT: 2
 # TOTAL: 43
 HOST, api.douban.com,Shunt
+HOST, b.appsimg.com,Shunt
+HOST, dr.vip.com,Shunt
