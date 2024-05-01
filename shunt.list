@@ -10,4 +10,4 @@
 HOST, api.douban.com,Shunt
 HOST, b.appsimg.com,Shunt
 HOST, dr.vip.com,Shunt
-#HOST, app.bilibili.com,Shunt
+HOST, app.bilibili.com,Shunt
